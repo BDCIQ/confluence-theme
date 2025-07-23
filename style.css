@@ -7,6 +7,7 @@ body {
   color: #000000; 
   position: relative;
   overflow-x: hidden;
+  background-attachment: fixed; 
 }
 
 header {
@@ -32,7 +33,7 @@ main {
   margin: 6rem auto; 
   background: #FFFFFF; 
   border-radius: 8px;
-  box-shadow: 0 40px 70px rgba(0, 0, 0, 0.7); /* Larger and darker shadow */
+  box-shadow: 0 40px 70px rgba(0, 0, 0, 0.7); 
   color: #000000; 
 }
 section {
@@ -213,3 +214,4 @@ a:hover {
 left-area::before, .left-area::after, .right-area::before, .right-area::after {
   content: none;
 }
+
