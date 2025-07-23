@@ -10,11 +10,11 @@ body {
 }
 
 header {
-  background: #395F97;
+  background: linear-gradient(to top, rgba(57, 95, 151, 1), rgba(57, 95, 151, 0)) #395F97;
   color: #FFFFFF;
   padding: 1.5rem;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
 }
 header h1 {
   margin: 0;
@@ -32,7 +32,7 @@ main {
   margin: 6rem auto; 
   background: #FFFFFF; 
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 40px 70px rgba(0, 0, 0, 0.7); /* Larger and darker shadow */
   color: #000000; 
 }
 section {
@@ -213,4 +213,3 @@ a:hover {
 left-area::before, .left-area::after, .right-area::before, .right-area::after {
   content: none;
 }
-
