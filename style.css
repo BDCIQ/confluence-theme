@@ -4,7 +4,7 @@ body {
   background-size: cover;
   margin: 0;
   padding: 0;
-  color: #FFFFFF; 
+  color: #000000; 
   position: relative;
   overflow-x: hidden;
 }
@@ -22,17 +22,20 @@ header h1 {
   font-size: 2rem;
   text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000; 
 }
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000; /* Apply black-text outline */
+}
 main {
   padding: 1.5rem; 
   max-width: 800px;
   margin: 6rem auto; 
-  background: #1A1A1A; 
+  background: #FFFFFF; 
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  color: #FFFFFF; 
+  color: #000000; 
 }
 section {
-  background: none; 
+  background: #FFFFFF; 
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: none; 
