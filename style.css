@@ -11,7 +11,7 @@ body {
 
 
 header {
-  background: #1A1A1A;
+  background: #1A1A1A; 
   color: #FFFFFF;
   padding: 1.5rem;
   text-align: center;
@@ -26,10 +26,10 @@ main {
   padding: 1.5rem; 
   max-width: 800px;
   margin: 6rem auto; 
-  background: #1A1A1A;
+  background: #1A1A1A; 
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  color: #FFFFFF;
+  color: #FFFFFF; 
 }
 section {
   background: none; 
