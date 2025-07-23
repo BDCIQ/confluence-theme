@@ -2,21 +2,13 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  color: #000000; 
+  color: #000000;
   position: relative;
   overflow-x: hidden;
-}
-
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('./Tech Flow.jpeg') no-repeat center center;
+  min-height: 100vh;
+  background: url('./Tech Flow.jpeg') no-repeat center top;
   background-size: cover;
-  z-index: -1; 
+  background-attachment: scroll; 
 }
 
 header {
@@ -38,8 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 main {
   padding: 1.5rem; 
-  max-width: 800px;
-  margin: 6rem auto; 
+  max-width: 1000px;
+  margin: 6rem auto 6rem 350px; 
   background: #FFFFFF; 
   border-radius: 8px;
   box-shadow: 0 40px 70px rgba(0, 0, 0, 0.7); 
@@ -224,3 +216,33 @@ left-area::before, .left-area::after, .right-area::before, .right-area::after {
   content: none;
 }
 
+nav {
+  background: #FDBA12;
+  border-radius: 8px;
+  box-shadow: 0 40px 70px rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  width: 200px;
+  z-index: 1000;
+  border: none; 
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5)); 
+}
+
+nav h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #F26545;
+}
+
+nav a {
+  display: block;
+  color: #395F97;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
